@@ -1,5 +1,5 @@
 # Grade-Calculator-JS
-A simple JavaScript application that takes marks as input and calculate the grade.
+A simple JavaScript application that takes marks as input and calculate the grade. <br>
 Preview: https://grade-calculator-js.netlify.app/
 
 The desktop preview is as:

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Grade Calculator</title>
+  </head>
+  <body class="d-flex justify-content-md-center align-items-center vh-100">
+    <div class="container">
+      <div class="row">
+        <div
+          class="column col-sm-6 d-flex justify-content-center align-items-center"
+        >
+          <h1 class="main-heading">
+            Grade <span class="line-break">Calculator</span>
+          </h1>
+        </div>
+        <div class="column col2 col-sm-6">
+          <div class="form-group">
+            <div class="mb-3 mt-5">
+              <input
+                type="text"
+                class="form-control"
+                id="maths"
+                placeholder="Maths"
+              />
+            </div>
+            <div class="mb-3 mt-5">
+              <input
+                type="text"
+                class="form-control"
+                id="physics"
+                placeholder="Physics"
+              />
+            </div>
+            <div class="mb-3 mt-5">
+              <input
+                type="text"
+                class="form-control"
+                id="chemistry"
+                placeholder="Chemistry"
+              />
+            </div>
+            <div class="mb-3 mt-5">
+              <input
+                type="text"
+                class="form-control"
+                id="language"
+                placeholder="Language"
+              />
+            </div>
+            <button type="button" class="btn btn-primary mt-3" onclick="getMarks()">Submit</button>
+          </div>
+        </div>
+      </div>
+      <div class="description">
+        <h4>Percentage:</h4>
+        <p id="percentage"></p>
+        <span class="line-break"></span>
+        <h4>Grade:</h4>
+        <p id="grade"></p>
+        <span class="line-break"></span>
+        <h4>Status:</h4>
+        <p id="status"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

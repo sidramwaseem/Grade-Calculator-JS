@@ -8,3 +8,7 @@ The desktop preview is as:
 
 The mobile version looks like<br>
 ![screenshot](https://github.com/sidramwaseem/Grade-Calculator-JS/blob/main/images/mobile-preview.png?raw=true)
+
+
+The preview once the submit button is clicked.<br>
+![screenshot](https://github.com/sidramwaseem/Grade-Calculator-JS/blob/main/images/sol-img.png?raw=true)
